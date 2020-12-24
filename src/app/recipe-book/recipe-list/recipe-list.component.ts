@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
+    new Recipe('Cast Iron Skillet Pork Chops', 'Delicious Dish', 'https://therecipecritic.com/wp-content/uploads/2019/09/cast-iron-skillet-pork-chops-7.jpg'),
     new Recipe('Cast Iron Skillet Pork Chops', 'Delicious Dish', 'https://therecipecritic.com/wp-content/uploads/2019/09/cast-iron-skillet-pork-chops-7.jpg')
   ];
   constructor() { }
